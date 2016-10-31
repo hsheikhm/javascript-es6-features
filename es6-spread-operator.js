@@ -21,3 +21,5 @@ function add(a, b) {
 }
 
 add(...vals); // 3
+
+var others = [3, ...vals, 4]; // [3, 1, 2, 4]
