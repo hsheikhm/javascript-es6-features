@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // ES5:
 
 var links = [];
