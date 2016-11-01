@@ -23,7 +23,7 @@ foo({count: 3, msg: 'something', junk: 88});
 function foo(options) {
   let {count, msg} = options;
 
-  for(var i = 0; i < count; i++) {
+  for(let i = 0; i < count; i++) {
     console.log((i + 1) + '. ' + msg);
   }
 }
@@ -33,7 +33,7 @@ function foo(options) {
 function foo(options) {
   let {count: max, msg} = options;
 
-  for(var i = 0; i < max; i++) {
+  for(let i = 0; i < max; i++) {
     console.log((i + 1) + '. ' + msg);
   }
 }
